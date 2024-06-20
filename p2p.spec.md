@@ -34,14 +34,14 @@
 
 7. FInally, If Merchant confirms fiat has been received, `releaseOrder` is then triggered and tokens are sent to the traders wallet.
 
+![](/specification-assets/buy_flow.png)
+
 #### Buy Flow Disputes
 In a case of a disagreement between a Merchant and a Trader:
 
 1. A Merchant can open an appeal(`appealOrder`) when he thinks trader did not send fiat but has called `payOrder`.
 
 2. A Trader can also call for an appeal when he thinks the Merchant did not release tokens after calling `payOrder`
-
-![](/specification-assets/buy_flow.png)
 
 
 #### Sell Flow (Summary)
@@ -71,15 +71,14 @@ In a case of a disagreement between a Merchant and a Trader:
 
 4. Trader after confirming fiat will then call `releaseOrder` for contract to release tokens to the Merchant
 
+![](/specification-assets/sell_flow.png)
+
 #### Sell Flow Disputes
 In a case of a disagreement between a Merchant and a Trader:
 
 1. A Trader can open an appeal(`appealOrder`) when he thinks Merchant did not send fiat but has called `payOrder`.
 
 2. A Merchant can also call for an appeal(`appealOrder`) when he thinks the Trader has received fiat but did not release tokens after calling `payOrder`.
-
-![](/specification-assets/sell_flow.png)
-
 
 
 ### Settling Flow (Summary)
