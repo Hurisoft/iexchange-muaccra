@@ -1,11 +1,9 @@
 # iExchange = DEX + P2P (Onchian) with On-chain AML & KYC using zkPass and offchain monitoring agents.
+- P2P contract uses an optimistic P2P algorithm, find spec here [P2P Spec](./p2p.spec.md).
 
-P2P contract uses an optimistic P2P algorithm, find spec here [P2P Spec](./p2p.spec.md).
-
-AML & KYC contract with offchian zkKyc agent, find spec here [KYC Spec](./kyc.spec.md).
+- AML & KYC contract with offchian zkKyc agent, find spec here [KYC Spec](./kyc.spec.md).
 
 ## Repository Links
-
 | Component           | Link                                                                                          |
 | ------------------- | --------------------------------------------------------------------------------------------- |
 | Smart Contracts     | https://github.com/Hurisoft/iexchange-contracts                                               |
@@ -16,12 +14,16 @@ AML & KYC contract with offchian zkKyc agent, find spec here [KYC Spec](./kyc.sp
 | UI/UX Design        | https://www.figma.com/design/rsld8nJabbyecSqdg2TlGK/Untitled?node-id=0-1&t=zWRc9oZdGCzksM44-0 |
 
 ## Live Demo Application Links
-
 | App                 | Link                              |
 | ------------------- | --------------------------------- |
 | Frontend P2P & DEX  | https://iexchange-app.vercel.app/ |
 | Frontend zkPass KYC | https://ikyc.vercel.app/          |
 
 ## iExchange Whitepaper
+- https://iexchange.gitbook.io/iexchange-whitepaper-new/
 
-https://iexchange.gitbook.io/iexchange-whitepaper-new/
+## iExchange Demo Video
+- https://loom.com/share/folder/7287240a6bd64567b171be83bb160012
+
+## iExchange Pitch Deck
+- https://drive.google.com/file/d/1Xbrj56aNDYbg_6aa2zScKfZNEaEaxXfJ/view?usp=drive_link
