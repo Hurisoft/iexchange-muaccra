@@ -1,36 +1,5 @@
 ## Protocol & Flows
 
-### Register Merchant & Settler Flow
-
-1. Ensure Connect wallet
-2. Initiate Registration
-3. Provide KYC Details
-4. Sign and Send Transaction
-
-### Stake Flow
-
-1. Ensure Connect Wallet
-2. Enter Amount to Stake
-3. Approve contract to transfer erc20 token for stake
-4. Sign and Send Transaction
-
-### Create Offer Flow
-
-1. Ensure Connect Wallet
-2. Enter Offer Details
-3. Approve contract to transfer erc20 token for stake
-4. Sign and Send Transaction
-
-### Delete Offer Flow
-
-1. Ensure Connect Wallet
-2. Select Offer to Delete and Confirm
-3. Sign and Send Transaction
-
-### Create Order Flow
-
-And order can either be a buy order or a sell order
-
 #### Buy Flow (Summary)
 
 1. Ensure Connect Wallet
@@ -72,13 +41,7 @@ In a case of a disagreement between a Merchant and a Trader:
 
 2. A Trader can also call for an appeal when he thinks the Merchant did not release tokens after calling `payOrder`
 
-<h3>
-<details>
-    <summary>Diagram for Buy Flow</summary>
-
 ![](/specification-assets/buy_flow.png)
-</details>
-</h3>
 
 
 #### Sell Flow (Summary)
@@ -115,13 +78,8 @@ In a case of a disagreement between a Merchant and a Trader:
 
 2. A Merchant can also call for an appeal(`appealOrder`) when he thinks the Trader has received fiat but did not release tokens after calling `payOrder`.
 
-<h3>
-<details>
-    <summary>Diagram for Sell Flow</summary>
-
 ![](/specification-assets/sell_flow.png)
-</details>
-</h3>
+
 
 
 ### Settling Flow (Summary)
@@ -150,34 +108,18 @@ To settle appeals:
 
 5. On the 5th time, the voting will be left for the DAO (`daoVote`) who's decision will be final either to cancel the order (`cancelOrder`) or release the order (`releaseOrder`)
 
-<h3>
-<details>
-    <summary>Diagram for Settle Flow</summary>
-
 ![](/specification-assets/settle_flow.png)
-</details>
-</h3>
 
 ## Higher Level Overview
 
 ### Buy and Sell Flow Interactions
-<h3>
-<details>
-    <summary>Diagram for Buy, Sell and Settle Flow</summary>
+
 
 ![](/specification-assets/buy_sell_combined.png)
-</details>
-</h3>
 
 ## Buy, Sell and Settlement Interactions
 
-<h3>
-<details>
-    <summary>Diagram for Settle Flow</summary>
-
 ![](/specification-assets/buy_sell_settle_combined.png)
-</details>
-</h3>
 
 ## DAO
 
@@ -250,3 +192,42 @@ Depending on the actor in question, the penalty is slashed from different source
 - Payment Details
 - Appeal
 - AppealVote
+
+# UI Flows
+
+## Register Merchant & Settler Flow
+
+1. Ensure Connect wallet
+2. Initiate Registration
+3. Provide KYC Details
+4. Approve contract to transfer erc20 token for stake
+5. Sign and Send Transaction
+
+### Stake Flow
+
+1. Ensure Connect Wallet
+2. Enter Amount to Stake
+3. Approve contract to transfer erc20 token for stake
+4. Sign and Send Transaction
+
+### Create Offer Flow
+
+1. Ensure Connect Wallet
+2. Enter Offer Details
+3. Approve contract to transfer erc20 token for stake
+4. Sign and Send Transaction
+
+### Delete Offer Flow
+
+1. Ensure Connect Wallet
+2. Select Offer to Delete and Confirm
+3. Sign and Send Transaction
+
+### Create Order Flow
+
+An order can either be a buy order or a sell order
+
+1. Ensure Connect Wallet
+2. Enter Order Details
+3. Approve contract to transfer erc20 token in case of sell
+4. Sign and Send Transaction
