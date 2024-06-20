@@ -21,3 +21,7 @@ AML & KYC contract with offchian zkKyc agent, find spec here [KYC Spec](./kyc.sp
 | ------------------- | --------------------------------- |
 | Frontend P2P & DEX  | https://iexchange-app.vercel.app/ |
 | Frontend zkPass KYC | https://ikyc.vercel.app/          |
+
+## iExchange Whitepaper
+
+https://iexchange.gitbook.io/iexchange-whitepaper-new/
