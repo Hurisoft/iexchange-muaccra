@@ -6,13 +6,14 @@ AML & KYC contract with offchian zkKyc agent, find spec here [KYC Spec](./kyc.sp
 
 ## Repository Links
 
-| Component           | Link                                            |
-| ------------------- | ----------------------------------------------- |
-| Smart Contracts     | https://github.com/Hurisoft/iexchange-contracts |
-| The Subgraph        | https://github.com/Hurisoft/iexchange-subgraphs |
-| Backend API         | https://github.com/Hurisoft/iexchange-functions |
-| Frontend P2P & DEX  | https://github.com/Hurisoft/iexchange-app       |
-| Frontend zkPass KYC | https://github.com/jovells/ikyc                 |
+| Component           | Link                                                                                          |
+| ------------------- | --------------------------------------------------------------------------------------------- |
+| Smart Contracts     | https://github.com/Hurisoft/iexchange-contracts                                               |
+| The Subgraph        | https://github.com/Hurisoft/iexchange-subgraphs                                               |
+| Backend API         | https://github.com/Hurisoft/iexchange-functions                                               |
+| Frontend P2P & DEX  | https://github.com/Hurisoft/iexchange-app                                                     |
+| Frontend zkPass KYC | https://github.com/jovells/ikyc                                                               |
+| UI/UX Design        | https://www.figma.com/design/rsld8nJabbyecSqdg2TlGK/Untitled?node-id=0-1&t=zWRc9oZdGCzksM44-0 |
 
 ## Live Demo Application Links
 

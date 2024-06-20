@@ -12,3 +12,4 @@
 
 
 ![](/specification-assets/aml_kyc_p2p.png)
+
