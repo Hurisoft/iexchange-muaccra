@@ -13,3 +13,10 @@ AML & KYC contract with offchian zkKyc agent, find spec here [KYC Spec](./kyc.sp
 | Backend API         | https://github.com/Hurisoft/iexchange-functions |
 | Frontend P2P & DEX  | https://github.com/Hurisoft/iexchange-app       |
 | Frontend zkPass KYC | https://github.com/jovells/ikyc                 |
+
+## Live Demo Application Links
+
+| App                 | Link                              |
+| ------------------- | --------------------------------- |
+| Frontend P2P & DEX  | https://iexchange-app.vercel.app/ |
+| Frontend zkPass KYC | https://ikyc.vercel.app/          |
