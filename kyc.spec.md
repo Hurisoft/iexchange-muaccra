@@ -13,3 +13,12 @@
 
 ![](/specification-assets/aml_kyc_p2p.png)
 
+- There are three main smart contract components depicted.
+    - P2P Contract
+    - AML Blacklisting Contract
+    - KYC Whitelisting Contract
+
+- Each of these have specific off-chain agents that interact with them.
+    - zkPass Attestation Agent for sending kyc confirmations to the KYC smart contract
+    - AML monitoring agents for detecting fraudulents accounts and blacklisting them on the AML contract.
+    - Merchants, Traders and Settlers who use the P2P contract for their transactions.
